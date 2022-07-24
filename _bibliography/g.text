@@ -1,0 +1,75 @@
+---
+nocite: "[@*]"
+references:
+- author:
+  - family: Viejo
+    given: Guillaume
+  - family: Peyrache
+    given: Adrien
+  container-title: Nature communications
+  id: viejo2020precise
+  issue: 1
+  issued: 2020
+  page: 1-14
+  publisher: Nature Publishing Group
+  title: Precise coupling of the thalamic head-direction system to
+    hippocampal ripples
+  type: article-journal
+  volume: 11
+- author:
+  - family: Viejo
+    given: Guillaume
+  - family: Cortier
+    given: Thomas
+  - family: Peyrache
+    given: Adrien
+  container-title: PLoS computational biology
+  id: viejo2018brain
+  issue: 3
+  issued: 2018
+  page: e1006041
+  publisher: Public Library of Science San Francisco, CA USA
+  title: Brain-state invariant thalamo-cortical coordination revealed by
+    non-linear encoders
+  type: article-journal
+  volume: 14
+- author:
+  - family: Viejo
+    given: Guillaume
+  - family: Girard
+    given: Benoı̂t
+  - family: Procyk
+    given: Emmanuel
+  - family: Khamassi
+    given: Mehdi
+  container-title: Behavioural Brain Research
+  id: viejo2018adaptive
+  issued: 2018
+  page: 76-89
+  publisher: Elsevier
+  title: Adaptive coordination of working-memory and reinforcement
+    learning in non-human primates performing a trial-and-error problem
+    solving task
+  type: article-journal
+  volume: 355
+- author:
+  - family: Viejo
+    given: Guillaume
+  - family: Khamassi
+    given: Mehdi
+  - family: Brovelli
+    given: Andrea
+  - family: Girard
+    given: Benoı̂t
+  container-title: Frontiers in behavioral neuroscience
+  id: viejo2015modeling
+  issued: 2015
+  page: 225
+  publisher: Frontiers Media SA
+  title: Modeling choice and reaction time during arbitrary visuomotor
+    learning through the coordination of adaptive working memory and
+    reinforcement learning
+  type: article-journal
+  volume: 9
+---
+

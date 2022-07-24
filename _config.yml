@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: gviejo/gviejo.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -52,53 +52,121 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>python</mark> and <mark>data analysis</mark>
 
+
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+        title: Pynapple, a package to analyse neurophysiological data
+        link: https://peyrachelab.github.io/pynapple/
+        #link_text: 
+        additional_links:
+          - title:  PeyracheLab/pynapple
+            icon: fab fa-github
+            url: github.com/PeyracheLab/pynapple
+          - title:  twitter/thepynapple
+            icon: fab fa-twitter
+            url: https://twitter.com/thepynapple
+        quote: >
+          Pynapple is a light-weight python library for time series analysis dedicated to neurophysiological data.
+        description: 
+           <font size="4"> <center> <mark>python</mark> <mark>numpy</mark>  <mark>pandas</mark>  <mark>pyqt</mark> </center> </font>
+          
+      - layout: top-middle
+        title: Pynacollada, a collaborative repository for high level analysis in system neuroscience
+        link: https://github.com/PeyracheLab/pynacollada
+        #link_text:
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/PeyracheLab/pynapple
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Shared repository for high-level data analysis with the pynapple package.
+        description: <font size="4"> <center> <mark>python</mark> <mark>numpy</mark>  <mark>pandas</mark>  <mark>Scikit-learn</mark> <mark>Jupyter notebook</mark> </center> </font>
 
-  # - title: Experience # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: The Boring Company
-  #       link: boringcompany.com
-  #       # link_text: boringcompany.com
-  #       sub_title: Senior Network System Administrator
-  #       caption: November 2017 - Present
-  #       quote: >
-  #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  #       description: | # this will include new lines to allow paragraphs
-  #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+  - title: Selected publications
+    layout: text
+    content: |
+      __Precise Coupling of the Thalamic Head-Direction System to Hippocampal Ripples__  
+      Viejo, Guillaume, and Adrien Peyrache. 2020.  
+      *Nature Communications* 11 (1): 1–14.
 
-  # - title: Education # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Harvard University
-  #       caption: 2010 - 2013
-  #       sub_title: BSc Computer Science
-  #       quote: >
-  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+      __Brain-State Invariant Thalamo-Cortical Coordination Revealed by Non-Linear Encoders__  
+      Viejo, Guillaume, Thomas Cortier, and Adrien Peyrache. 2018.  
+      *PLoS Computational Biology* 14 (3): e1006041.
 
-  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      __Adaptive Coordination of Working-Memory and Reinforcement Learning in Non-Human Primates Performing a Trial-and-Error Problem Solving Task__  
+      Viejo, Guillaume, Benoı̂t Girard, Emmanuel Procyk, and Mehdi Khamassi. 2018.  
+      *Behavioural Brain Research* 355: 76–89.
+
+      __Modeling Choice and Reaction Time During Arbitrary Visuomotor Learning Through the Coordination of Adaptive Working Memory and Reinforcement Learning__  
+      Viejo, Guillaume, Mehdi Khamassi, Andrea Brovelli, and Benoı̂t Girard. 2015.  
+      *Frontiers in Behavioral Neuroscience* 9: 225.
+      
+    
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Research associate
+        link: https://www.peyrachelab.com/
+        link_text: peyrachelab.com
+        sub_title: Montreal Neurological Institute
+        caption: January 2022 - Present
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        # description: | # this will include new lines to allow paragraphs
+        #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+      - layout: top-middle
+        title: Postdoctoral fellow
+        link: https://www.peyrachelab.com/
+        link_text: peyrachelab.com
+        sub_title: Montreal Neurological Institute
+        caption: January 2017 - December 2022
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        # description: | # this will include new lines to allow paragraphs
+        #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: PhD Computational Neuroscience
+        caption: 2013 - 2016
+        sub_title: Université Pierre et Marie Curie
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my PhD, I worked 
+
+      - layout: top-middle
+        title: Master Artificial Intelligence and Decision
+        caption: 2011 - 2013
+        sub_title: Université Pierre et Marie Curie
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my PhD, I worked 
+
+      - layout: top-middle
+        title: Master Neuroscience
+        caption: 2009 - 2011
+        sub_title: Université Caen
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my PhD, I worked 
+          
 
   # - title: A Little More About Me
   #   layout: text
